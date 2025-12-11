@@ -1,0 +1,22 @@
+.symptoms-container {
+    border:2px solid #ccc;
+    border-radius:8px;
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.symptom-input {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+}
+
+.symptom-button {
+    transition: transform 0.2s ease;
+}
+
+.symptom-button:hover {
+    transform: scale(1.05)
+}

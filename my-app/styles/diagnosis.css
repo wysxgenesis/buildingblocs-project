@@ -1,0 +1,21 @@
+.diagnosis-container {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.diagnosis-input {
+    background-color: #fafafa;
+}
+
+.diagnosis-button {
+    transition: transform 0.2s ease;
+}
+
+.diagnosis-button:hover {
+    background-color: scale(1.05);
+}
