@@ -47,12 +47,9 @@ export default function Symptoms() {
       <div className="symptomsList">
         <h2>Symptoms Recorded:</h2>
         <ul>
-          {symptomsList[0] && <li>{symptomsList[0]}</li>}
-          {symptomsList[1] && <li>{symptomsList[1]}</li>}
-          {symptomsList[2] && <li>{symptomsList[2]}</li>}
-          {symptomsList[3] && <li>{symptomsList[3]}</li>}
-          {symptomsList[4] && <li>{symptomsList[4]}</li>}
-          {symptomsList[5] && <li>{symptomsList[5]}</li>}
+          {symptomsList.map(function(symptom, index)  {
+            return <li key={index}>{symptom}</li>;
+          })}
         </ul>
       </div>
 

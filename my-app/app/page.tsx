@@ -3,7 +3,7 @@ export default function Home() {
     <div>
       {/* navbar */}
       <nav className="navbar">
-        <h1>HealthApp</h1>
+        <h1>Health Buddy</h1>
         <div>
           <a href="/symptoms">Symptoms</a>
           <a href="/diagnosis">Diagnosis</a>
@@ -14,7 +14,7 @@ export default function Home() {
 
       {/* body */}
       <main className="main">
-        <h1>Your Personal Health Assistant</h1>
+        <h1>Keep Track of Your Health!</h1>
         <p>Check symptoms, track diagnoses and medications, and set medication reminders all in one place!</p>
         <div>
           <a href="/symptoms" className="button">Symptom Checker</a>

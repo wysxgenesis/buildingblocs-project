@@ -53,7 +53,7 @@ export default function Reminders() {
       </div>
 
       <div className="buttonStuff">
-        <button onClick={function(){window.history.go(-2)}}>Back home</button>
+        <button onClick={function(){window.history.go(-2)}}>Return to home</button>
       </div>
     </div>
   );
