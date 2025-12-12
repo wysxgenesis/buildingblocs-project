@@ -6,7 +6,7 @@
 * ensure that you have react downloaded, go to terminal, `cd my-app` then `npm run dev`
 
 # Usage of AI:
-* used AI to help troubleshoot code when it was not working
+* used AI to help troubleshoot code for the alert portion when it was not working
 
 # References
 * BuildingBloCS workshop slides
