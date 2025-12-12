@@ -15,11 +15,11 @@ export default function Home() {
       {/* body */}
       <main className="main">
         <h1>Your Personal Health Assistant</h1>
-        <p>Check symptoms and set medication reminders all in one place.</p>
+        <p>Check symptoms, track diagnoses and medications, and set medication reminders all in one place!</p>
         <div>
           <a href="/symptoms" className="button">Symptom Checker</a>
-          <a href="/diagnosis" className="button">Get Diagnosis</a>
-          <a href="/medications" className="button">Medications Info</a>
+          <a href="/diagnosis" className="button">Diagnosis Tracker</a>
+          <a href="/medications" className="button">Medication Tracker</a>
           <a href="/reminders" className="button">Medication Reminders</a>
         </div>
       </main>

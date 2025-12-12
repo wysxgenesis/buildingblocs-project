@@ -1,0 +1,47 @@
+html, body {
+  font-family: Arial;
+}
+
+.remindersBox {
+  background-image: linear-gradient(180deg, lightgreen, bisque);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.remindersBox h1 {
+  font-size: 28px;
+  margin: 8px;
+}
+
+.remindersBox input {
+  margin-bottom: 10px;
+  width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccceb;
+}
+
+.buttonStuff {
+  margin: 10px;
+}
+
+.buttonStuff button {
+  background-color: #1278ec;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.buttonStuff button:hover {
+  background-color: #0758ae;
+}
+
+.buttonStuff p {
+  font-weight: bold;
+  margin-top: 10px;
+}
