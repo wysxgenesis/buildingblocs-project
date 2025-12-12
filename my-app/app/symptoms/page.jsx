@@ -1,5 +1,5 @@
 //pages/symptoms.js 
-import '../styles/symptoms.css';
+import '../../styles/symptoms.css';
 export default function Symptoms() {
   return (
     <div className="p-6 bg-gray-100 symptoms-container">

@@ -6,6 +6,8 @@ export default function Home() {
         <h1>HealthApp</h1>
         <div>
           <a href="/symptoms">Symptoms</a>
+          <a href="/diagnosis">Diagnosis</a>
+          <a href="/medications">Medications</a>
           <a href="/reminders">Reminders</a>
         </div>
       </nav>
@@ -13,9 +15,11 @@ export default function Home() {
       {/* body */}
       <main className="main">
         <h1>Your Personal Health Assistant</h1>
-        <p>Check symptoms and set medication reminders — all in one place.</p>
+        <p>Check symptoms and set medication reminders all in one place.</p>
         <div>
           <a href="/symptoms" className="button">Symptom Checker</a>
+          <a href="/diagnosis" className="button">Get Diagnosis</a>
+          <a href="/medications" className="button">Medications Info</a>
           <a href="/reminders" className="button">Medication Reminders</a>
         </div>
       </main>

@@ -1,5 +1,7 @@
+"use client";
+
 import {useState} from 'react';
-import 'diagnosis.css'
+import '../../styles/diagnosis.css'
 export default function Diagnosis() {
     const [diagnosis, setDiagnosis] = useState('');
     const [list, setList] = useState([]);

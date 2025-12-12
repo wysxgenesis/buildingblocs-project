@@ -1,5 +1,7 @@
+"use client";
+
 import {useState} from 'react';
-import "../styles/medications.css";
+import "../../styles/medications.css";
 
 export default function Medications() {
     const [medication, setMedication] = useState('');
